@@ -1,0 +1,5 @@
+0 2 * * * /scripts/cleanup_logs.sh
+
+0 */4 * * * /scripts/disk_usage_report.sh
+
+*/15 * * * * /scripts/process_health_check.sh
